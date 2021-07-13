@@ -1,0 +1,34 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.game-grid {
+  background: blue;
+  width: 500px;
+  display: flex;
+  padding: 1rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: white;
+  margin: 5px;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.red {
+  background: red;
+}
